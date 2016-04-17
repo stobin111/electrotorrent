@@ -1,0 +1,445 @@
+
+<!DOCTYPE html>
+<!--[if IE 9]>    <html xmlns:fb="http://ogp.me/ns/fb#" lang="en" class="ie9"> <![endif]-->
+<!--[if gt IE 9]><!--> <html xmlns:fb="http://ogp.me/ns/fb#" lang="en"> <!--<![endif]-->
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Hafod-y-Llan</title>
+    
+    
+        <meta property="og:url" content="http://piclo.uk/p/hafod-y-llan/JXEUd" />
+<meta property="og:image" content="https://d1o1wdbk5ytaqh.cloudfront.net/media/HafodyLlan5small.jpg" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Hafod-y-Llan" />
+    
+
+    <link rel="icon" type="image/png" href="https://d1o1wdbk5ytaqh.cloudfront.net/static/images/ou-favicon.553889bd7e18.png">
+    <link rel="stylesheet" href="https://d1o1wdbk5ytaqh.cloudfront.net/static/css/main.763e13911630.css">
+
+    
+<link href='//api.mapbox.com/mapbox.js/v2.2.2/mapbox.css' rel='stylesheet' />
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-40359446-7', 'piclo.uk');
+      ga('send', 'pageview');
+    </script>
+    
+
+
+<script src="https://d1o1wdbk5ytaqh.cloudfront.net/static/leaflet/leaflet.57ff70669f76.js" type="text/javascript"></script>
+
+
+
+<script src="https://d1o1wdbk5ytaqh.cloudfront.net/static/leaflet/leaflet.extras.0024b364a0ee.js" type="text/javascript"></script>
+<script type="text/javascript">
+    
+    L.Control.ResetView.TITLE = "Reset view";
+    L.Control.ResetView.ICON = "url(https://d1o1wdbk5ytaqh.cloudfront.net/static/leaflet/images/reset-view.e3a08f2f589b.png)";
+    
+</script>
+
+    
+<link rel="stylesheet" href="https://d1o1wdbk5ytaqh.cloudfront.net/static/leaflet/leaflet.508a9152edee.css" />
+<!--[if lte IE 8]>
+    <link rel="stylesheet" href="https://d1o1wdbk5ytaqh.cloudfront.net/static/leaflet/leaflet.ie.90b6a78525e3.css" />
+<![endif]-->
+<style>.leaflet-container-default {min-height: 300px;}</style>
+
+
+</head>
+
+<body ontouchstart="">
+
+
+<!--[if lt IE 10]>
+<div id="ie-warning">
+  You're using an outdated version of Internet Explorer. Please update in order to see and use Piclo properly.
+</div>
+<![endif]-->
+
+
+<div class="page-wrap">
+
+  
+
+    
+
+
+<header class="header--light">
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        
+        <a href="/" class="logo">
+          <img alt="Piclo" src="https://d1o1wdbk5ytaqh.cloudfront.net/static/images/piclo-logo-navy.aa4d1f7cf298.svg" />
+          <span class="hidden">piclo</span>
+        </a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="main-menu">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/how-it-works">How it works</a></li>
+          <li><a href="/buy">Buy power</a></li>
+          <li><a href="/sell">Sell power</a></li>
+          
+          <li><a href="/generators/">Browse generators</a></li>
+          
+          <li><a href="/u/login/"><span class="btn btn--small btn--lightblue btn--wide ">Log in</span></a></li>
+        </ul><!-- .nav navbar-nav navbar-right -->
+      </div><!-- .navbar-collapse -->
+
+    </div><!-- .container-fluid -->
+  </nav><!-- navbar navbar-default -->
+</header><!-- header--light -->
+
+
+
+  
+
+  
+
+  
+
+  
+
+<div class="section section--carousel">
+  <div class="carousel__container">
+      <div class="owl-carousel-arrow">
+        <i class="carousel-prev glyphicon glyphicon-chevron-left"></i>
+      </div>
+      <div class="owl-carousel">
+        
+          <a href="#">
+           <img src="https://d1o1wdbk5ytaqh.cloudfront.net/media/HafodyLlan5small.jpg" />
+          </a>
+        
+          <a href="#">
+           <img src="https://d1o1wdbk5ytaqh.cloudfront.net/media/HafodyLlan9small.jpg" />
+          </a>
+        
+          <a href="#">
+           <img src="https://d1o1wdbk5ytaqh.cloudfront.net/media/HafodyLlan7small.jpg" />
+          </a>
+        
+          <a href="#">
+           <img src="https://d1o1wdbk5ytaqh.cloudfront.net/media/HafodyLlan8small.jpg" />
+          </a>
+        
+          <a href="#">
+           <img src="https://d1o1wdbk5ytaqh.cloudfront.net/media/HafodyLlan2small.jpg" />
+          </a>
+        
+          <a href="#">
+           <img src="https://d1o1wdbk5ytaqh.cloudfront.net/media/HafodyLlan10small.jpg" />
+          </a>
+        
+          <a href="#">
+           <img src="https://d1o1wdbk5ytaqh.cloudfront.net/media/HafodyLlan3small.jpg" />
+          </a>
+        
+          <a href="#">
+           <img src="https://d1o1wdbk5ytaqh.cloudfront.net/media/HafodyLlan4small.jpg" />
+          </a>
+        
+      </div>
+      <div class="owl-carousel-arrow">
+        <i class="carousel-next glyphicon glyphicon-chevron-right"></i>
+      </div>
+      <div class="container">
+        <div class="overlay">
+          <div class="overlay__item">
+            <h1>Hafod-y-Llan</h1>
+          </div>
+          <div class="overlay__item bg-hydro">
+            <h3>
+              660 kW
+              Hydro
+            </h3>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+
+<div class="gpp-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-7">
+        <h2></h2>
+        
+            <div class="gen-group">
+              
+                <div class="gen-group__logo"><img src="https://d1o1wdbk5ytaqh.cloudfront.net/media/new_green_standard_4_NTV_C_G_7481_S_C.JPG" /></div>
+              
+              <div class="gen-group__content">
+                <p class="subheading">Site managed by</p>
+                <h2>National Trust</h2>
+              </div>
+            </div>
+        
+        <div class="gen-content">
+          <p>The Hafod-y-Llan hydroelectric turbine in Snowdonia, operational since April 2014, is the National Trust’s first large-scale renewable energy project. </p>
+<p>The turbine is installed in the 4000 acre Hafod-y-Llan demonstration farm which reaches the very summit of Snowdon. It generates about 1,900 megawatt hours per year – enough electricity to power around 594 homes and more than the amount needed to light all of National Trust's properties in Wales, which includes eight mansions, three castles and 45 holiday cottages.</p>
+<p>Income generated through the Trust’s renewable energy scheme goes directly to biodiversity work and conservation management costs. Hafod-y-Llan is a special place being a National Nature Reserve (NNR), Site of Special Scientific Interest (SSSI) and an European Special Area of Conservation (SAC). For the Hafod-y-Llan farm, this means everything from welsh black cattle grazing the high slopes through to footpath and education work across the farm. The site is also used by many community energy groups for lesson sharing and hosting events.</p>
+<p>Hafod-y-Llan is one of two National Trust sites in Piclo - see also <a href="http://piclo.uk/p/aberdulais-hydro/aBvU7">Aberdulais Hydro</a>. The Trust has more than 250 small and medium-scale renewable energy schemes at properties across England and Wales, as part of its commitment to generating 50% of its energy needs from renewable energy by 2020.</p>
+          <p class="read-more"><a href="#" class="button">Read More</a></p>
+        </div>
+        
+
+<div class="gen-details">
+  <div class="gen-tech-details">
+    <div class="tech-details-heading">
+      <div class="tech-details-heading__icon">
+        <div class="svg-icon icon-hydro"></div>
+      </div>
+      <div class="tech-details-heading__content">
+        <p class="subheading">Technology details</p>
+        <h2>Hydro energy</h2>
+      </div>
+    </div>
+    <div class="gen-tech-details__data">
+        <dl>
+          
+          <dt>Number of units</dt>
+          <dd>
+          
+            <p>1</p>
+          
+          </dd>
+          
+          <dt>Total installed capacity</dt>
+          <dd>
+          
+            <p>660 kW</p>
+          
+          </dd>
+          
+          <dt>Average annual output</dt>
+          <dd>
+          
+            <p>1,900,000 kWh</p>
+          
+          </dd>
+          
+          <dt>Average homes powered</dt>
+          <dd>
+          
+            <p>594</p>
+          
+          </dd>
+          
+          <dt>Operational start date</dt>
+          <dd>
+          
+            <p>23rd April 2014</p>
+          
+          </dd>
+          
+        </dl>
+    </div>
+  </div>
+</div>
+
+
+      </div>
+      <div class="col-sm-4 col-sm-offset-1 text-center">
+        
+
+
+<div class="block">
+  <p class="subheading">Buy energy from Hafod-y-Llan!</p>
+  <a href="mailto:piclo@openutility.com?subject=Register interest to buy from Hafod-y-Llan&amp;body=I would like to register my interest in buying energy from Hafod-y-Llan." class="btn btn-primary" target="_blank">Register my interest</a>
+</div>
+
+
+
+
+        <div class="block">
+
+  <p class="subheading">Energy sold via</p>
+  <img class="img-responsive center-block" width="150" src="https://d1o1wdbk5ytaqh.cloudfront.net/static/images/GE.d07b4f5c1b00.png"/>
+
+</div>
+        
+          <div class="block">
+
+<div class="group-details">
+  <p class="subheading">Group details</p>
+  
+  <div class="group-details__data">
+      <dl>
+        <dt>Name</dt>
+        <dd>National Trust</dd>
+        <dt>Type</dt>
+        <dd>Charity/Non-profit</dd>
+        
+        
+          <dt> Links </dt>
+          <dd>
+            <a href="https://www.facebook.com/nationaltrust" title="National Trust on Facebook" target="_blank">National Trust on Facebook</a>
+          </dd>
+        
+          <dt></dt>
+          <dd>
+            <a href="http://www.nationaltrust.org.uk/" title="National Trust website" target="_blank">National Trust website</a>
+          </dd>
+        
+          <dt></dt>
+          <dd>
+            <a href="https://twitter.com/nationaltrust?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" title="@nationaltrust" target="_blank">@nationaltrust</a>
+          </dd>
+        
+      </dl>
+  </div>
+  
+</div>
+
+</div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+
+<div id='map'></div>
+
+
+<div class="social-share-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+      <h4>Tell people about Hafod-y-Llan</h4>
+        <ul class="social-icons">
+          <li><a target="_blank" class="track" href="https://twitter.com/intent/tweet?text=Check%20out%20Hafod-y-Llan%27s%20%23Piclo%20profile%20%40OpenUtility%20%40GoodEnergy&amp;url=https%3A//piclo.uk/p/hafod-y-llan/JXEUd&amp;"><i class="ico-twitter-with-circle"></i></a></li>
+          <li><a target="_blank" class="track" href="https://www.facebook.com/sharer/sharer.php?u=https%3A//piclo.uk/p/hafod-y-llan/JXEUd"><i class="ico-facebook-with-circle"></i></a></li>
+          <li><a target="_blank" class="track" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=YOUR-URL&amp;title=Hafod-y-Llan on Piclo&amp;summary=See Hafod-y-Llan's generator profile on Piclo.&amp;source=https%3A//piclo.uk/p/hafod-y-llan/JXEUd"><i class="ico-linkedin-with-circle"></i></a></li>
+        </ul>
+     </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+</div><!-- page-wrap -->
+
+
+  
+  
+
+<footer>
+
+  <div class="container">
+    <div class="row">
+      
+      <div class="col-md-6 col-md-push-6">
+        <ul class="col-md-6 col-sm-6">
+          <li>
+            <a href="/how-it-works">How it works</a>
+          </li>
+          <li>
+            <a href="/buy">Buy power</a>
+          </li>
+          <li>
+            <a href="/sell">Sell power</a>
+          </li>
+          <li>
+            <a href="/generators/">Browse generators</a>
+          </li>
+        </ul>
+      
+        <ul class="col-md-6 col-sm-6">
+          <li><a href="/cookie-policy">We use cookies</a></li>
+        
+          <li><a href="/terms-of-website">Terms and conditions</a></li>
+          <li><a href="/faqs">FAQs</a></li>
+        
+        </ul>
+      </div><!-- col-md-6 -->
+
+      <div class="col-md-6 col-sm-12 col-md-pull-6">
+        <a href="/"><img class="logo" alt="Piclo" src="https://d1o1wdbk5ytaqh.cloudfront.net/static/images/piclo-logo-navy.aa4d1f7cf298.svg" style="padding-bottom:18px;" /></a>
+        <p class="small-copy"> Piclo is brought to you by <a href="http://www.openutility.com" target="_blank">Open Utility</a> and <a href="http://www.goodenergy.co.uk" target="_blank">Good Energy</a></p>
+        <p class="small-copy">Copyright &copy; 2016 Open Utility</p>
+      </div><!-- col-md-6 -->
+
+    </div><!-- row -->
+  </div><!-- container -->
+
+</footer>
+
+  
+
+<script src="https://d1o1wdbk5ytaqh.cloudfront.net/static/js/vendor.ad6a072cd3ef.js"></script>
+<script src="https://d1o1wdbk5ytaqh.cloudfront.net/static/js/main.1cecba614b6a.js"></script>
+
+
+<script type="text/javascript" src="https://d1o1wdbk5ytaqh.cloudfront.net/static/js/carousel.1a42f2d740d9.js"></script>
+<script src='//api.mapbox.com/mapbox.js/v2.2.2/mapbox.js'></script>
+<script>
+  L.mapbox.accessToken = 'pk.eyJ1Ijoib3Blbi11dGlsaXR5IiwiYSI6ImtxSnRja3MifQ.fxQwJPJq2xNBM1_TH1lRAQ';
+  var map = L.mapbox.map('map', 'open-utility.h2o73i8k')
+      .setView([53.040146, -4.04913], 9);
+      map.scrollWheelZoom.disable();
+  L.marker([53.040146, -4.04913], {
+      icon: L.mapbox.marker.icon({
+          'marker-size': 'large',
+          'marker-color': '#48d3c6'
+      })
+  }).addTo(map);
+
+  var $el, $ps, $up, totalHeight;
+
+  $(".gen-content .button").click(function() {
+
+    totalHeight = 0
+
+    $el = $(this);
+    $p  = $el.parent();
+    $up = $p.parent();
+    $ps = $up.find("p:not('.read-more')");
+
+    // measure how tall inside should be by adding together heights of all inside paragraphs (except read-more paragraph)
+    $ps.each(function() {
+      totalHeight += $(this).outerHeight();
+    });
+
+    $up
+      .css({
+        // Set height to prevent instant jumpdown when max height is removed
+        "min-height": $up.height(),
+        "max-height": 9999
+      })
+      .animate({
+        "min-height": totalHeight
+      });
+
+    // fade out read-more
+    $p.fadeOut();
+
+    // prevent jump-down
+    return false;
+
+  });
+</script>
+
+
+</body>
+</html>
