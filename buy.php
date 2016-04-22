@@ -3,7 +3,7 @@
 <!--[if IE 9]>    <html xmlns:fb="http://ogp.me/ns/fb#" lang="en" class="ie9"> <![endif]-->
 <!--[if gt IE 9]><!--> <html xmlns:fb="http://ogp.me/ns/fb#" lang="en"> <!--<![endif]-->
 
-  <head>
+  <!-- <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -41,10 +41,15 @@
 <!--[if lte IE 8]>
     <link rel="stylesheet" href="https://d1o1wdbk5ytaqh.cloudfront.net/static/leaflet/leaflet.ie.90b6a78525e3.css" />
 <![endif]-->
-<style>.leaflet-container-default {min-height: 300px;}</style>
+<!--<style>.leaflet-container-default {min-height: 300px;}</style>
 
 
-</head>
+</head> -->
+
+<?php 
+  include 'head.php';
+  echo $head;
+?>
 
 <body ontouchstart="">
 
@@ -63,50 +68,15 @@
     
 
 
-<header class="header--light">
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        
-        <a href="/" class="logo">
-          <img alt="Piclo" src="https://d1o1wdbk5ytaqh.cloudfront.net/static/images/piclo-logo-navy.aa4d1f7cf298.svg" />
-          <span class="hidden">piclo</span>
-        </a>
-      </div>
-
-      <div class="collapse navbar-collapse" id="main-menu">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="/how-it-works">How it works</a></li>
-          <li><a href="/buy">Buy power</a></li>
-          <li><a href="/sell">Sell power</a></li>
-          
-          <li><a href="/generators/">Browse generators</a></li>
-          
-          <li><a href="/u/login/"><span class="btn btn--small btn--lightblue btn--wide ">Log in</span></a></li>
-        </ul><!-- .nav navbar-nav navbar-right -->
-      </div><!-- .navbar-collapse -->
-
-    </div><!-- .container-fluid -->
-  </nav><!-- navbar navbar-default -->
-</header><!-- header--light -->
+<?php
+  include 'header.php';
+  echo $header;
+?>
 
 
 
   
-
-  
-
-  
-
-  
-<div class="banner">
+<div class="section-dark-grey">
   <div class="container">
     <div class="row">
       <div class="bg-image consumer-header">
@@ -217,46 +187,10 @@
   
   
 
-<footer>
-
-  <div class="container">
-    <div class="row">
-      
-      <div class="col-md-6 col-md-push-6">
-        <ul class="col-md-6 col-sm-6">
-          <li>
-            <a href="/how-it-works">How it works</a>
-          </li>
-          <li>
-            <a href="/buy">Buy power</a>
-          </li>
-          <li>
-            <a href="/sell">Sell power</a>
-          </li>
-          <li>
-            <a href="/generators/">Browse generators</a>
-          </li>
-        </ul>
-      
-        <ul class="col-md-6 col-sm-6">
-          <li><a href="/cookie-policy">We use cookies</a></li>
-        
-          <li><a href="/terms-of-website">Terms and conditions</a></li>
-          <li><a href="/faqs">FAQs</a></li>
-        
-        </ul>
-      </div><!-- col-md-6 -->
-
-      <div class="col-md-6 col-sm-12 col-md-pull-6">
-        <a href="/"><img class="logo" alt="Piclo" src="https://d1o1wdbk5ytaqh.cloudfront.net/static/images/piclo-logo-navy.aa4d1f7cf298.svg" style="padding-bottom:18px;" /></a>
-        <p class="small-copy"> Piclo is brought to you by <a href="http://www.openutility.com" target="_blank">Open Utility</a> and <a href="http://www.goodenergy.co.uk" target="_blank">Good Energy</a></p>
-        <p class="small-copy">Copyright &copy; 2016 Open Utility</p>
-      </div><!-- col-md-6 -->
-
-    </div><!-- row -->
-  </div><!-- container -->
-
-</footer>
+<?php 
+ include 'footer.php';
+ echo $footer;
+?>
 
   
 

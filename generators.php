@@ -3,213 +3,10 @@
 <!--[if IE 9]>    <html xmlns:fb="http://ogp.me/ns/fb#" lang="en" class="ie9"> <![endif]-->
 <!--[if gt IE 9]><!--> <html xmlns:fb="http://ogp.me/ns/fb#" lang="en"> <!--<![endif]-->
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Generators on Piclo</title>
-    
-    <link rel="icon" type="image/png" href="https://d1o1wdbk5ytaqh.cloudfront.net/static/images/ou-favicon.553889bd7e18.png">
-    <link rel="stylesheet" href="https://d1o1wdbk5ytaqh.cloudfront.net/static/css/main.763e13911630.css">
-
-    
-  <style>
-  
-  #gid-1 {
-    background: url(https://d1o1wdbk5ytaqh.cloudfront.net/media/water4.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
-    min-height: 200px;
-  }
-  
-  #gid-2 {
-    background: url(https://d1o1wdbk5ytaqh.cloudfront.net/media/Alvington_1.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
-    min-height: 200px;
-  }
-  
-  #gid-3 {
-    background: url(https://d1o1wdbk5ytaqh.cloudfront.net/media/Benson_Signs_2.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
-    min-height: 200px;
-  }
-  
-  #gid-4 {
-    background: url(https://d1o1wdbk5ytaqh.cloudfront.net/media/BES1_4.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
-    min-height: 200px;
-  }
-  
-  #gid-5 {
-    background: url(https://d1o1wdbk5ytaqh.cloudfront.net/media/IMG_3840.jpeg) no-repeat;
-    background-position: center;
-    background-size: cover;
-    min-height: 200px;
-  }
-  
-  #gid-6 {
-    background: url(https://d1o1wdbk5ytaqh.cloudfront.net/media/BSG_2.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
-    min-height: 200px;
-  }
-  
-  #gid-7 {
-    background: url(https://d1o1wdbk5ytaqh.cloudfront.net/media/Lower_Weir_5.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
-    min-height: 200px;
-  }
-  
-  #gid-8 {
-    background: url(https://d1o1wdbk5ytaqh.cloudfront.net/media/Upper_Weir_in_winter2.jpeg) no-repeat;
-    background-position: center;
-    background-size: cover;
-    min-height: 200px;
-  }
-  
-  #gid-9 {
-    background: url(https://d1o1wdbk5ytaqh.cloudfront.net/media/CPC-Gorran-11.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
-    min-height: 200px;
-  }
-  
-  #gid-10 {
-    background: url(https://d1o1wdbk5ytaqh.cloudfront.net/media/HafodyLlan7small.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
-    min-height: 200px;
-  }
-  
-  #gid-11 {
-    background: url(https://d1o1wdbk5ytaqh.cloudfront.net/media/HyP_1.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
-    min-height: 200px;
-  }
-  
-  #gid-12 {
-    background: url(https://d1o1wdbk5ytaqh.cloudfront.net/media/Turbine_wide_1.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
-    min-height: 200px;
-  }
-  
-  #gid-13 {
-    background: url(https://d1o1wdbk5ytaqh.cloudfront.net/media/mains_-_photo3.JPG) no-repeat;
-    background-position: center;
-    background-size: cover;
-    min-height: 200px;
-  }
-  
-  #gid-14 {
-    background: url(https://d1o1wdbk5ytaqh.cloudfront.net/media/PP_10.png) no-repeat;
-    background-position: center;
-    background-size: cover;
-    min-height: 200px;
-  }
-  
-  #gid-15 {
-    background: url(https://d1o1wdbk5ytaqh.cloudfront.net/media/Radyr_Weir_-_Wide_1.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
-    min-height: 200px;
-  }
-  
-  #gid-16 {
-    background: url(https://d1o1wdbk5ytaqh.cloudfront.net/media/Scandale_Hydro_1.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
-    min-height: 200px;
-  }
-  
-  #gid-17 {
-    background: url(https://d1o1wdbk5ytaqh.cloudfront.net/media/Turbine_wide_1.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
-    min-height: 200px;
-  }
-  
-  #gid-18 {
-    background: url(https://d1o1wdbk5ytaqh.cloudfront.net/media/P1040161_SHL_investors_by_Luke_Tilley_MR_small.jpeg) no-repeat;
-    background-position: center;
-    background-size: cover;
-    min-height: 200px;
-  }
-  
-  #gid-19 {
-    background: url(https://d1o1wdbk5ytaqh.cloudfront.net/media/SychFarm_Wide_1.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
-    min-height: 200px;
-  }
-  
-  #gid-20 {
-    background: url(https://d1o1wdbk5ytaqh.cloudfront.net/media/PP7.png) no-repeat;
-    background-position: center;
-    background-size: cover;
-    min-height: 200px;
-  }
-  
-  #gid-21 {
-    background: url(https://d1o1wdbk5ytaqh.cloudfront.net/media/waterditch.png) no-repeat;
-    background-position: center;
-    background-size: cover;
-    min-height: 200px;
-  }
-  
-  #gid-22 {
-    background: url(https://d1o1wdbk5ytaqh.cloudfront.net/media/Westmill_1.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
-    min-height: 200px;
-  }
-  
-  #gid-23 {
-    background: url(https://d1o1wdbk5ytaqh.cloudfront.net/media/WCH_5.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
-    min-height: 200px;
-  }
-  
-  </style>
-
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-40359446-7', 'piclo.uk');
-      ga('send', 'pageview');
-    </script>
-    
-
-
-<script src="https://d1o1wdbk5ytaqh.cloudfront.net/static/leaflet/leaflet.57ff70669f76.js" type="text/javascript"></script>
-
-
-
-<script src="https://d1o1wdbk5ytaqh.cloudfront.net/static/leaflet/leaflet.extras.0024b364a0ee.js" type="text/javascript"></script>
-<script type="text/javascript">
-    
-    L.Control.ResetView.TITLE = "Reset view";
-    L.Control.ResetView.ICON = "url(https://d1o1wdbk5ytaqh.cloudfront.net/static/leaflet/images/reset-view.e3a08f2f589b.png)";
-    
-</script>
-
-    
-<link rel="stylesheet" href="https://d1o1wdbk5ytaqh.cloudfront.net/static/leaflet/leaflet.508a9152edee.css" />
-<!--[if lte IE 8]>
-    <link rel="stylesheet" href="https://d1o1wdbk5ytaqh.cloudfront.net/static/leaflet/leaflet.ie.90b6a78525e3.css" />
-<![endif]-->
-<style>.leaflet-container-default {min-height: 300px;}</style>
-
-
-</head>
+<?php 
+  include 'head.php';
+  echo $head;
+?>
 
 <body ontouchstart="">
 
@@ -228,39 +25,10 @@
     
 
 
-<header class="header--light">
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        
-        <a href="/" class="logo">
-          <img alt="Piclo" src="https://d1o1wdbk5ytaqh.cloudfront.net/static/images/piclo-logo-navy.aa4d1f7cf298.svg" />
-          <span class="hidden">piclo</span>
-        </a>
-      </div>
-
-      <div class="collapse navbar-collapse" id="main-menu">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="/how-it-works">How it works</a></li>
-          <li><a href="/buy">Buy power</a></li>
-          <li><a href="/sell">Sell power</a></li>
-          
-          <li><a href="/generators/">Browse generators</a></li>
-          
-          <li><a href="/u/login/"><span class="btn btn--small btn--lightblue btn--wide ">Log in</span></a></li>
-        </ul><!-- .nav navbar-nav navbar-right -->
-      </div><!-- .navbar-collapse -->
-
-    </div><!-- .container-fluid -->
-  </nav><!-- navbar navbar-default -->
-</header><!-- header--light -->
+<?php
+  include 'header.php';
+  echo $header;
+?>
 
 
 
@@ -273,7 +41,7 @@
   
 
 <section class="section--fulscreen section-light-grey">
-  <h1 class="text-center">Generators on Piclo</h1>
+  <h1 class="text-center">Generators on ElectroTorrent</h1>
   <div class="container">
     
       <div class="row">
@@ -725,46 +493,10 @@
   
   
 
-<footer>
-
-  <div class="container">
-    <div class="row">
-      
-      <div class="col-md-6 col-md-push-6">
-        <ul class="col-md-6 col-sm-6">
-          <li>
-            <a href="/how-it-works">How it works</a>
-          </li>
-          <li>
-            <a href="/buy">Buy power</a>
-          </li>
-          <li>
-            <a href="/sell">Sell power</a>
-          </li>
-          <li>
-            <a href="/generators/">Browse generators</a>
-          </li>
-        </ul>
-      
-        <ul class="col-md-6 col-sm-6">
-          <li><a href="/cookie-policy">We use cookies</a></li>
-        
-          <li><a href="/terms-of-website">Terms and conditions</a></li>
-          <li><a href="/faqs">FAQs</a></li>
-        
-        </ul>
-      </div><!-- col-md-6 -->
-
-      <div class="col-md-6 col-sm-12 col-md-pull-6">
-        <a href="/"><img class="logo" alt="Piclo" src="https://d1o1wdbk5ytaqh.cloudfront.net/static/images/piclo-logo-navy.aa4d1f7cf298.svg" style="padding-bottom:18px;" /></a>
-        <p class="small-copy"> Piclo is brought to you by <a href="http://www.openutility.com" target="_blank">Open Utility</a> and <a href="http://www.goodenergy.co.uk" target="_blank">Good Energy</a></p>
-        <p class="small-copy">Copyright &copy; 2016 Open Utility</p>
-      </div><!-- col-md-6 -->
-
-    </div><!-- row -->
-  </div><!-- container -->
-
-</footer>
+<?php 
+ include 'footer.php';
+ echo $footer;
+?>
 
   
 
