@@ -9883,7 +9883,45 @@ img {
     .section-light-grey h1.center {
     margin-top: 0;
 }
-}.section-dark-grey {
+}.section-dark-green {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: #244A5D;
+    background: -moz-linear-gradient(45deg,  #1ABC9C 0,  #007191 74%,  #276f96 100%);
+    background: -webkit-gradient(linear,  left bottom,  right top,  color-stop(0,  #2a4552),  color-stop(74%,  #007191),  color-stop(100%,  #276f96));
+    background: -webkit-linear-gradient(45deg,  #1ABC9C 0,  #007191 74%,  #276f96 100%);
+    background: -o-linear-gradient(45deg,  #1ABC9C 0,  #007191 74%,  #276f96 100%);
+    background: -ms-linear-gradient(45deg,  #1ABC9C 0,  #007191 74%,  #276f96 100%);
+    background: linear-gradient(45deg,  #1ABC9C 0,  #007191 74%,  #276f96 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2a4552',  endColorstr='#276f96',  GradientType=1);
+}
+.section-dark-green h1 {
+    margin-top: 0;
+    margin-bottom: 1em;
+    text-align: center;
+    color: #fff;
+}
+@media (max-width:991px) {
+    .section-dark-green h1 {
+    margin-top: 0;
+}
+}.section-dark-green p {
+    color: white;
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: 200;
+    padding-left: .75em;
+    padding-right: .75em;
+}
+.section-dark-green #requirements {
+    display: block;
+    border: 1px dashed #7898A2;
+    padding: 1.5em 0 1em 0;
+    margin: 2em 0 2em 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section-dark-grey {
     padding-top: 70px;
     padding-bottom: 70px;
     background: #244A5D;

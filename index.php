@@ -46,7 +46,7 @@
       <div class="piclo-header-content">
         <h2>Buy and sell renewable energy - directly</h2>
         <p>ElectoTorrent is an online marketplace for energy - giving renewable generators and commercial consumers more control and transparency than ever before. ElectroTorrent launched October 1st, 2015.</p>
-        <a class="btn btn-primary" href="/register-interest">HOW IT WORKS</a>
+        <a class="btn btn-primary" href="how-it-works.php">HOW IT WORKS</a>
       </div>
     </div>
   </div>

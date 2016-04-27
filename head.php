@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Buy and sell renewable energy - directly</title>
-    <link rel="icon" type="image/png" href="https://d1o1wdbk5ytaqh.cloudfront.net/static/images/ou-favicon.553889bd7e18.png">
+    <link rel="icon" type="image/png" href="static/images/et.png">
     <link rel="stylesheet" href="static/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
 

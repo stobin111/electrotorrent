@@ -20,10 +20,13 @@ $header = '<header class="header--light">
 
       <div class="collapse navbar-collapse" id="main-menu">
         <ul class="nav navbar-nav navbar-right">
+          <li><a href="generators.php">About us</a></li>
           <li><a href="how-it-works.php">How it works</a></li>
           <li><a href="buy.php">Buy power</a></li>
           <li><a href="sell.php">Sell power</a></li>
-          <li><a href="generators.php">Browse generators</a></li>
+          <!-- <li><a href="generators.php">Browse generators</a></li> -->
+          <li><a href="generators.php">Go to market</a></li>
+          <li><a href="generators.php">Join us!</a></li> <!-- back this product -->
         </ul>
       </div>
 
